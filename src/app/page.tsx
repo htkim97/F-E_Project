@@ -1,32 +1,14 @@
-'use client'
-import Button from "../components/welcomePage/button/button";
-import Guide from "../components/welcomePage/Guide/Guide";
-import Link from "next/link";
-import Head from "../components/welcomePage/head/Head";
-import LoginBtn from "../components/welcomePage/login/button"
-export default function Page() {
+import FullBleed from "@/components/fullBleed/fullBleed";
+import Profile from "@/components/profile/profile";
+import Title from "@/components/title/title";
+import Image from "next/image";
 
+export default function Home() {
   return (
-
-    <main className="flex flex-col justify-center items-center p-20">
-
-
-
-      <div className="mt-8">
-        <Head />
-      </div>
-      <br /><br />
-      <div className="mt-4">
-        <Button />
-      </div>
-      <br /><br /><br /><br />
-      <div className="">
-        <Guide />
-      </div>
-
-
-    </main>
-
-
+    <div>
+    <Title/>
+    <Profile/>
+    <FullBleed/>
+    </div>
   );
 }
