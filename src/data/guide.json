@@ -1,0 +1,26 @@
+[
+    {
+        "menu":"Feedback",
+        "name":"감정 선택하기",
+        "description" : "오늘 내 기분이 어떤지 감정을 선택하여 알려주세요. ",
+        "path" : "feedback"
+    },
+    {
+        "menu":"Write",
+        "name":"일기쓰기",
+        "description" : "오늘 내 기분을 기록합니다. 무엇을 써야할 지 모르겠다면 하루를 돌아볼 수 있는 시간을 가져보세요",
+        "path" : "write"
+    },
+    {
+        "menu":"Open",
+        "name":"솔직한 이야기",
+        "description" : "누구에게도 말하지 못한 속마음, 그루미에게 꺼내어 보세요. 솔직한 내 모습을 들여다볼 수 있어요",
+        "path" : "open"
+    },
+    {
+        "menu":"Management",
+        "name":"내 감정 돌아보기",
+        "description" : "감정을 쓰는 행위에서 끝나는 것이 아닌 시간 별로 '관리'함으로써 나에 대해 더 잘 이해할 수 있어요.",
+        "path" : "growingUp"
+    }
+]

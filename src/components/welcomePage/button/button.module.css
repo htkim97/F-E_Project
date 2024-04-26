@@ -1,0 +1,7 @@
+.hover{
+    background-color: white;
+    border-radius: 0.75rem;
+    border-width: 2px;
+    border-color: black;
+    padding: 4px;
+}
